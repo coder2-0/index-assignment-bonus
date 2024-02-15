@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+#slider {
+    width: 300px; /* Set a fixed width for the slider */
+    height: auto; /* Let the height adjust to maintain aspect ratio */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+button:active {
+    background-color: #45a049; /* Darker green */
+}
+
+#prevBtn {
+    margin-right: 5px;
+}
+
+#nextBtn {
+    margin-left: 5px;
+}
